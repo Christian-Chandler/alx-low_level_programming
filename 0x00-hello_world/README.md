@@ -1,0 +1,1 @@
+This project deals with programming in C language. The C language is some sort of high level language that lets you do low level programming.
