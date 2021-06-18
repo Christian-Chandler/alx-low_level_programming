@@ -1,0 +1,1 @@
+With this project, I hope to learn how to deal with **C** *variables*, *if*, *else*, *while*, and *for* keywords.
