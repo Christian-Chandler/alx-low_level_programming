@@ -1,0 +1,1 @@
+The *0x03-debugging* Project is about finding solutions to errors called bugs which occur during program execution. 
