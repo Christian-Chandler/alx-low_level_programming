@@ -1,0 +1,1 @@
+In this second part of Functions and more loops, we'll explore how to use functions and nested loops furthermore.
