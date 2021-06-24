@@ -2,13 +2,14 @@
 
 /**
  * print_diagonal - Prints diagonal line n times using \
- * @n: Number of \ to be printed
+ * @n: number of \ to be printed.
  */
-void print_line(int n)
+
+void print_diagonal(int n)
 {
 	if (n > 0)
 	{
-		int i = n;
+		int i;
 
 		for (i = 0; i < n; i++)
 		{
