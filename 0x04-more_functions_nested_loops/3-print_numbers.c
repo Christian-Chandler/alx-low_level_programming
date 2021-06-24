@@ -1,19 +1,17 @@
 #include "holberton.h"
 
 /**
- * print_numbers - Prints from 0 - 9 followed by a new line
+ * print_numbers - Prints from 0 to 9 followed by a new line
  */
 
 void print_numbers(void)
 {
-	char i;
+	char z;
 
-	for (i = '0'; i <= '9'; i++)
+	for (z = '0'; z <= '9'; z++)
 	{
-		_putchar(i);
+		_putchar(z);
 	}
 
 	_putchar('\n');
-
-	return (0);
 }
