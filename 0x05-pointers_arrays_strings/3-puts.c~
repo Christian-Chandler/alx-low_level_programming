@@ -1,15 +1,15 @@
 #include "holberton.h"
 
 /**
- * _puts - Prints a length of string.
+ * _puts - Prints a length of string
  * @str: The String
  *
  */
 void _puts(char *str)
 {
-	for (; *str != '\0'; str++)
+	for (; *s != '\0'; s++)
 	{
-		_putchar(*str);
+		_putchar(*s);
 	}
 
 	_putchar('\n');
