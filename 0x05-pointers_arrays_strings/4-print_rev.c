@@ -9,10 +9,12 @@ void print_rev(char *s)
 {
 	char *q = s;
 
-	do
+	while (*s != '\0')
 	{
 		s++;
-	} while (*s != '\0');
+	}
+
+	s--;
 	
 	while (s >= q)
 	{
