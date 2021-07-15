@@ -24,7 +24,7 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 		return (NULL);
 
 	for (i = 0; i < (size * nmemb); i++)
-		copy_array[i] = '\0';
+		copy_array[i] = '0';
 	return (copy_array);
 
 	return (NULL);
