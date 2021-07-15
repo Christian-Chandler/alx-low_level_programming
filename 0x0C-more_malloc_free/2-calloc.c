@@ -12,21 +12,18 @@
  */
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
-	void *alloc_array;
 	char *copy_array;
 	unsigned int i;
 
 	if (nmemb == 0 || size == 0)
 		return (NULL);
 
-	alloc_array = malloc(size * nmemb);
+	copy_array = malloc(size * nmemb);
 
-	if (alloc_array == NULL)
+	if (copy_array == NULL)
 		return (NULL);
-
-	copy_array = alloc_array;
 
 	for (i = 0; i < (size * nmemb); i++)
 		copy_array[i] = '\0';
-	return (alloc_array);
+	return (copy_array);
 }
